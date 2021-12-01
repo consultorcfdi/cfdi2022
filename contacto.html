@@ -44,52 +44,36 @@
     
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid">
+    <div class= class="container-sm">
     <h1>Contacto</h1>
-
-    
+  
 
     <!-- formulario de contacto -->
     <form action="https://formsubmit.co/consultor.cfdi@gmail.com" method="POST">
       
       
-        <label for="">Nombre    </label>
-        <input type="text" name="name" required>
+        
+        <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example" name="name" required >
 
         <br>
 
-        <label for="">Empresa   </label>
-        <input type="text" name="empresa" required>
-        
+       
+        <input class="form-control form-control-lg" type="text" placeholder="Empresa" aria-label=".form-control-lg example" name="Empresa" required >
         <br>
         
-        <label for="">Correo    </label>
-        <input type="email" name="email" required>
         
+        <input type="email" name="email" requiredclass="form-control form-control-lg"  placeholder="Correo Electronico" aria-label=".form-control-lg example" name="e-mail" required > 
         <br>
         
         <label for="">Comentarios</label>
         
         <br>
         
-        <textarea name="Mensaje" id="" cols="50" rows="10"></textarea>
+        <textarea name="Mensaje" placeholder="Comentarios" cols="50" rows="8" required></textarea>
 
         <br>
 
-        <select class="form-select form-select-lg mb-3" aria-label="Sistema de tu interes" name="Sistema">
+        <select class="form-select form-select-lg mb-3" aria-label="Sistema de tu interes" name="Sistema" required>
             <option selected>Sistema ASPEL </option>
             <option value="COI">COI</option>
             <option value="SAE">SAE</option>
