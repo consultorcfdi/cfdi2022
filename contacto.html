@@ -19,6 +19,7 @@
     
 </head>
 <body>
+
     <section> 
         <header>
           <div class="container-fluid">
@@ -45,54 +46,86 @@
     
       </section>
 
-    <div class= class="container-sm">
-    <h1>Contacto</h1>
-  
-
-    <!-- formulario de contacto -->
+<!-- contenedor  dividido -->
+<div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">
+      <h2>Contacto</h2>
+      <!-- formulario de contacto -->
     <form action="https://formsubmit.co/consultor.cfdi@gmail.com" method="POST">
       
       
         
-        <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example" name="name" required >
+      <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example" name="name" required >
+
+      <br>
+
+      <input class="form-control form-control-lg" type="text" placeholder="Empresa" aria-label=".form-control-lg example" name="Empresa" required >
+      <br>
+      
+      <input type="email" name="email" requiredclass="form-control form-control-lg"  placeholder="Correo Electronico" aria-label=".form-control-lg example" name="e-mail" required > 
+      <br>
+      
+      <textarea name="Mensaje" placeholder="Comentarios" cols="50" rows="8" required></textarea>
+
+      <br>
+
+      <select class="form-select form-select-lg mb-3" aria-label="Sistema de tu interes" name="Sistema" required>
+          <option selected>Sistema ASPEL </option>
+          <option value="COI">COI</option>
+          <option value="SAE">SAE</option>
+          <option value="NOI">NOI</option>
+          <option value="BANCO">BANCO</option>
+          <option value="CAJA">CAJA>PROD</option>
+          <option value="FACTURE">FACTURE</option>
+          <option value="ADM">ADM</option>
+          <option value="TIMBRES">TIMBRES</option>
+        </select>
 
         <br>
 
-        <input class="form-control form-control-lg" type="text" placeholder="Empresa" aria-label=".form-control-lg example" name="Empresa" required >
-        <br>
-        
-        <input type="email" name="email" requiredclass="form-control form-control-lg"  placeholder="Correo Electronico" aria-label=".form-control-lg example" name="e-mail" required > 
-        <br>
-        
-        <textarea name="Mensaje" placeholder="Comentarios" cols="50" rows="8" required></textarea>
+        <button type="button" class="btn btn-primary">ENVIAR</button>
+ </form>
+  </div>
+ <!-- termina formulario de contacto -->
 
-        <br>
 
-        <select class="form-select form-select-lg mb-3" aria-label="Sistema de tu interes" name="Sistema" required>
-            <option selected>Sistema ASPEL </option>
-            <option value="COI">COI</option>
-            <option value="SAE">SAE</option>
-            <option value="NOI">NOI</option>
-            <option value="BANCO">BANCO</option>
-            <option value="CAJA">CAJA>PROD</option>
-            <option value="FACTURE">FACTURE</option>
-            <option value="ADM">ADM</option>
-            <option value="TIMBRES">TIMBRES</option>
-          </select>
 
-          <br>
-
-          <button type="button" class="btn btn-primary">ENVIAR</button>
-   </form>
+     </div>
     </div>
-   <!-- termina formulario de contacto -->
- 
-   <!-- empieza contacto via whatsapp -->
+    <div class="col">
+      <div class="p-3 border bg-light">
+        
+        <!-- empieza contacto via whatsapp -->
 
-   <aside><a href="https://api.whatsapp.com/send?phone=522294175415&text=Hola!%20Estoy%20interesado%20en%20Sistemas%20Aspel"><img src="logo_whats_app.png" class="img-fluid" alt="Contactame por Whats app"></a></aside>
-
-
+   <aside><a href="https://api.whatsapp.com/send?phone=522294175415&text=Hola!%20Estoy%20interesado%20en%20Sistemas%20Aspel"><img src="logo_whats_app.png" class="img-fluid" alt="Contactame por Whats app"></a>
+    <br>
+    <h3>contactame via Whast App</h3>
+  </aside>
     <!-- termina contacto via whatsapp -->
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- contenedor dividido -->
+
+
+    <div class= class="container-sm">
+    <h2>Contacto</h2>
+  
+
+    
+ 
+   
 
 
 </body>
